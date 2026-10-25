@@ -1,0 +1,41 @@
+{
+  "model_type": "Fine-Gray",
+  "horizon_months": 12,
+  "training_data": "SYNTHETIC teaching data",
+  "landmarks": {
+    "1": {
+      "month": 1,
+      "tau_months": 11,
+      "predictors": {
+        "age_years": -0.020449063160848928,
+        "female_1_yes": 0.262915691565968,
+        "CCI": 0.0070790372716148806,
+        "prior_fragility_fracture_1_yes": 0.060216552080860922,
+        "barthel_prefracture_0_100": -0.0033266037267178756,
+        "fim_l_prefracture_2_14": -0.11902601632520604,
+        "bi_recovery": -0.053159191982597151,
+        "fim_recovery": -0.2499306810975038
+      },
+      "baseline_cum_subhazard": 1.0671650911651582,
+      "sample_size": 1215,
+      "observed_fractures": 139
+    },
+    "3": {
+      "month": 3,
+      "tau_months": 9,
+      "predictors": {
+        "age_years": -0.018654141876170979,
+        "female_1_yes": 0.52764562735722909,
+        "CCI": -0.18553981858601173,
+        "prior_fragility_fracture_1_yes": -0.20362552740984785,
+        "barthel_prefracture_0_100": -0.018718081303501322,
+        "fim_l_prefracture_2_14": -0.16442470651938323,
+        "bi_recovery": -0.078645036425085371,
+        "fim_recovery": -0.29437392270524515
+      },
+      "baseline_cum_subhazard": 3.8621417818351227,
+      "sample_size": 1097,
+      "observed_fractures": 70
+    }
+  }
+}
